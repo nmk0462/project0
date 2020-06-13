@@ -1,0 +1,38 @@
+$bgimg:linear-gradient(45deg,#108dc7,#ef8e38); 
+$fontfm:"Comic Sans MS", cursive, sans-serif;
+$fontfm1:"Lucida Console", Monaco, monospace;
+body
+{
+	 background-image: $bgimg;
+
+}
+h1
+{
+		font-family: $fontfm;
+}
+ol{
+.gy
+{
+   	font-family:$fontfm;	
+   	font-size: 30px;
+}
+.py
+{
+font-family:$fontfm1;
+@extend.gy;
+}
+}
+a
+{
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	position: absolute;
+	left: 45%;
+	font-size: 40px;
+
+}
+a:hover
+{
+	background-color: green;
+}

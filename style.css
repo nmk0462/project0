@@ -1,0 +1,63 @@
+
+
+body{
+	background: rgb(238,174,202);
+
+background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+h1,h2
+{   
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+ul
+{
+	margin: 50px;
+	padding: 5px;
+	list-style-type: circle;
+	
+}
+#ab li
+{
+	padding: 5px;
+}
+.cd
+{
+	text-decoration: none;
+	background-color: black;
+	color: white;
+
+
+}
+.cd:hover
+{
+	background-color: green;
+	color: white;
+}
+@media(min-width: 700px)
+{
+		h1{
+		color: red;
+	}
+h2{
+		color: blue;
+	}
+}
+@media(max-width: 699px)
+	{
+	
+	h1{
+		color: blue;
+	}
+h2{
+		color: red;
+	}
+	h1::before
+	{    color: black;
+		font-size: 20px;
+		content: "[*You are viewing in small screen!!*]"
+	}
+	
+	}
+	
